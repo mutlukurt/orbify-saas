@@ -173,7 +173,19 @@ const Footer: React.FC = () => {
               © 2025 Mutlu Kurt. All rights reserved. Licensed under MIT.
             </div>
             <div className="flex items-center space-x-6 text-sm text-text-secondary">
-              <span>Made with ❤️ in San Francisco</span>
+              <div className="flex items-center space-x-2">
+                <span>Crafted with</span>
+                <svg className="w-4 h-4 text-red-500 animate-pulse" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+                </svg>
+                <span>in</span>
+                <div className="flex items-center space-x-1">
+                  <svg className="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                  </svg>
+                  <span>Istanbul, Turkey</span>
+                </div>
+              </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <span>All systems operational</span>
