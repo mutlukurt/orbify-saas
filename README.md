@@ -154,6 +154,4 @@ This is Version 1.0 of the Orbify platform. Future versions will include:
 
 ---
 
-**Built with ❤️ for modern SaaS platforms**
-
-*Version 1.0 - Initial Release*
+**Built with ❤️ by Mutlu Kurt**
