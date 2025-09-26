@@ -9,28 +9,28 @@ const HelpCenter: React.FC = () => {
       title: "Getting Started",
       description: "Learn the basics of Orbify",
       articles: 12,
-      color: "from-purple-glow to-purple-light"
+      color: "bg-purple-glow"
     },
     {
       icon: MessageCircle,
       title: "Account & Billing",
       description: "Manage your account and subscription",
       articles: 8,
-      color: "from-purple-light to-pink-500"
+      color: "bg-purple-light"
     },
     {
       icon: Video,
       title: "Features & Usage",
       description: "Make the most of Orbify's features",
       articles: 15,
-      color: "from-blue-500 to-purple-glow"
+      color: "bg-purple-glow"
     },
     {
       icon: Mail,
       title: "Integrations",
       description: "Connect your tools and data sources",
       articles: 10,
-      color: "from-teal-500 to-purple-light"
+      color: "bg-purple-light"
     }
   ];
 
@@ -126,6 +126,7 @@ const HelpCenter: React.FC = () => {
                   className="text-center p-8 bg-glass-white backdrop-blur-sm border border-glass-border rounded-2xl hover:border-purple-glow/50 transition-all duration-300 group cursor-pointer"
                 >
                   <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${category.color} mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                  <div className={`inline-flex p-4 rounded-2xl ${category.color} mb-6 group-hover:scale-110 transition-transform duration-300`}>
                     <Icon className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-text-primary mb-3 group-hover:text-purple-light transition-colors duration-200">
