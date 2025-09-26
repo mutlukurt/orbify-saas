@@ -84,7 +84,13 @@ const Navbar: React.FC = () => {
             transition={{ duration: 0.5 }}
             className="flex-shrink-0"
           >
-            <Link to="/" className="flex items-center space-x-2">
+            <Link 
+              to="/" 
+              className="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-200"
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+            >
               <div className="w-8 h-8 bg-gradient-to-r from-purple-glow to-purple-light rounded-full flex items-center justify-center">
                 <div className="w-4 h-4 bg-white rounded-full animate-pulse"></div>
               </div>
