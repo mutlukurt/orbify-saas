@@ -17,6 +17,7 @@ import Blog from './pages/Blog';
 import HelpCenter from './pages/HelpCenter';
 import Community from './pages/Community';
 import About from './pages/About';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
