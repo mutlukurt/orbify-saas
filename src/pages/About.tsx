@@ -41,7 +41,7 @@ const About: React.FC = () => {
       name: "Sarah Chen",
       role: "CEO & Co-Founder",
       bio: "Former VP of Analytics at TechCorp. 10+ years in data science and business intelligence.",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face&auto=format"
+      avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=300&fit=crop&crop=face&auto=format"
     },
     {
       name: "Marcus Johnson",
