@@ -9,28 +9,28 @@ const HelpCenter: React.FC = () => {
       title: "Getting Started",
       description: "Learn the basics of Orbify",
       articles: 12,
-      color: "from-blue-500 to-purple-glow"
+      color: "from-purple-glow to-purple-light"
     },
     {
       icon: MessageCircle,
       title: "Account & Billing",
       description: "Manage your account and subscription",
       articles: 8,
-      color: "from-green-500 to-purple-glow"
+      color: "from-purple-light to-pink-500"
     },
     {
       icon: Video,
       title: "Features & Usage",
       description: "Make the most of Orbify's features",
       articles: 15,
-      color: "from-purple-glow to-pink-500"
+      color: "from-blue-500 to-purple-glow"
     },
     {
       icon: Mail,
       title: "Integrations",
       description: "Connect your tools and data sources",
       articles: 10,
-      color: "from-yellow-500 to-purple-glow"
+      color: "from-teal-500 to-purple-light"
     }
   ];
 
