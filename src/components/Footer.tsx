@@ -170,7 +170,7 @@ const Footer: React.FC = () => {
         >
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-text-secondary text-sm">
-              © 2025 Mutlu Kurt. All rights reserved. Licensed under MIT.
+              © 2025 Mutlu Kurt. Licensed under MIT.
             </div>
             <div className="flex items-center space-x-6 text-sm text-text-secondary">
               <div className="flex items-center space-x-2">
